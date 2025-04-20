@@ -1,0 +1,23 @@
+iptv-premium/
+├── client/
+│   ├── index.html
+│   ├── painel.html
+│   └── login.html
+├── server/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── config.js
+│   ├── server.js
+│   └── .env.example
+├── package.json
+├── README.md
+└── banco/
+cd caminho/para/iptv-premium
+git init
+git add .
+git commit -m "GitHub"
+git branch -M main
+git remote add origin https://github.com/seu-usuario/iptv-premium.git
+git push -u origin main
